@@ -28,7 +28,6 @@ def CheckQuadrant (x, y):
     elif x > 0 and y < 0:
         n = 4
     return print(f'{n}я четверть')
-
 x = InputСoordinate('Введите координату Х')
 y = InputСoordinate('Введите координату Y')
 CheckQuadrant (x, y)
